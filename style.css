@@ -1,0 +1,65 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.btn1 {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link-active {
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+.nav-link:hover {
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+.accordion-button:hover {
+    color: #be3ab3;
+}
+
+.img-thumbnail {
+    height: 100px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="services1"] {
+        font-size: 1.5rem;
+    }
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.bi-paperclip {
+    font-weight: bold;
+    font-size: 20px;
+    color: #be3ab3;
+    display: inline-block;
+    margin-bottom: 15px;
+    transform: rotate(45deg);
+}
